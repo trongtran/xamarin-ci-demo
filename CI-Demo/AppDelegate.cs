@@ -22,8 +22,13 @@ namespace CIDemo
 
 			// Code to start the Xamarin Test Cloud Agent
 			#if ENABLE_TEST_CLOUD
-//			Xamarin.Calabash.Start();
+			//			Xamarin.Calabash.Start();
 			#endif
+
+			#if DEBUG
+			Xamarin.Calabash.Start();
+			#endif
+
 
 			return true;
 		}

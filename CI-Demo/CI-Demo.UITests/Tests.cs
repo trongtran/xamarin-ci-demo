@@ -20,7 +20,7 @@ namespace CIDemo.UITests
 				.iOS
 				// TODO: Update this path to point to your iOS app and uncomment the
 				// code if the app is not included in the solution.
-				.AppBundle ("../../../CI-Demo/bin/iPhoneSimulator/Debug/CI-Demo.app")
+				.AppBundle ("../../../bin/iPhoneSimulator/Debug/CI-Demo.app")
 				.StartApp ();
 		}
 
